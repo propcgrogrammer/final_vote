@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>總決賽投票</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <script>
+    
+    function vote(index){
+
+        var team = '隊伍'+index;
+        var result = confirm('您將要投票給'+ team + "\t ?");
+        if(result){
+          alert('感謝您的投票，並預祝您的支持者當選 !!');
+          return true;
+        }
+        alert('請重新投票 !!');
+        return false;
+
+    }
+    
+    </script>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">議題割喉戰</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 class="my-4">決賽隊伍
+        <small>Fighting</small>
+      </h1>
+
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100" style="border-color: green ; border-width: 3px">
+            <a href="#"><img class="card-img-top" src="img/team_icon_1.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">隊伍名稱1</a>
+              </h4>
+              <p class="card-text">關於隊伍敘述</p>
+              
+              <div class="card-footer">
+                  <font color="green" size="10"><b>386+</b></font>
+                <a href="#" class="btn btn-primary" style="float: right;" onclick="vote(1)">我要投票 !</a>
+                
+              </div>
+               
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100" style="border-color: green ; border-width: 3px">
+            <a href="#"><img class="card-img-top" src="img/team_icon_2.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">隊伍名稱2</a>
+              </h4>
+              <p class="card-text">關於隊伍敘述</p>
+              <div class="card-footer">
+                  <font color="green" size="10"><b>643+</b></font>
+                <a href="#" class="btn btn-primary" style="float: right" onclick="vote(2)" >我要投票 !</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100" style="border-color: green ; border-width: 3px">
+            <a href="#"><img class="card-img-top" src="img/team_icon_1.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">隊伍名稱3</a>
+              </h4>
+              <p class="card-text">關於隊伍敘述</p>
+              <div class="card-footer">
+                  <font color="green" size="10"><b>336+</b></font>
+                <a href="#" class="btn btn-primary" style="float: right" onclick="vote(3)" >我要投票 !</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100" style="border-color: green ; border-width: 3px">
+            <a href="#"><img class="card-img-top" src="img/team_icon_2.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">隊伍名稱4</a>
+              </h4>
+              <p class="card-text">關於隊伍敘述</p>
+            <div class="card-footer">
+                <font color="green" size="10"><b>326+</b></font>
+              <a href="#" class="btn btn-primary" style="float: right" onclick="vote(4)" >我要投票 !</a>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100" style="border-color: green ; border-width: 3px">
+            <a href="#"><img class="card-img-top" src="img/team_icon_1.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">隊伍名稱5</a>
+              </h4>
+              <p class="card-text">關於隊伍敘述</p>
+              <div class="card-footer">
+                  <font color="green" size="10"><b>539+</b></font>
+                <a href="#" class="btn btn-primary" style="float: right" onclick="vote(5)" >我要投票 !</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- /.row -->
+
+     
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
